@@ -1,7 +1,5 @@
 
 <div align="center">
-  
-  ![YOKI Store Banner](https://user-images.githubusercontent.com/86558336/153747140-e9a64ebd-61b4-4193-92b1-74c3b859161d.png)
 
   # 🛍️ YOKI STORE
   
