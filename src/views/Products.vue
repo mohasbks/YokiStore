@@ -1,15 +1,12 @@
 <template>
   <div class="products">
     <div class="container py-5">
-      <!-- Page Header -->
       <div class="row mb-5">
         <div class="col-12 text-center">
           <h1 class="display-4 fw-bold mb-3">Our Products</h1>
           <p class="lead text-muted">Discover amazing products from our curated collection</p>
         </div>
       </div>
-
-      <!-- Search Bar -->
       <div class="row mb-4">
         <div class="col-md-6 mx-auto">
           <div class="input-group input-group-lg">
@@ -26,8 +23,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Loading State -->
       <div v-if="loading" class="text-center py-5">
         <div class="spinner-border text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
@@ -35,13 +30,10 @@
         <p class="mt-3 text-muted">Loading products...</p>
       </div>
 
-      <!-- Error State -->
       <div v-else-if="error" class="alert alert-danger text-center">
         <i class="bi bi-exclamation-triangle me-2"></i>
         {{ error }}
       </div>
-
-      <!-- Products Grid -->
       <div v-else class="row g-4">
         <div v-for="product in filteredProducts" :key="product.id" class="col-lg-3 col-md-4 col-sm-6">
           <div class="card h-100 shadow-sm border-0 product-card">
@@ -85,7 +77,6 @@
         </div>
       </div>
 
-      <!-- No Results -->
       <div v-if="!loading && !error && filteredProducts.length === 0" class="text-center py-5">
         <i class="bi bi-search display-4 text-muted mb-3"></i>
         <h3 class="text-muted">No products found</h3>
@@ -93,7 +84,6 @@
       </div>
     </div>
 
-    <!-- Success Toast -->
     <div 
       v-if="showSuccessToast" 
       class="toast-container position-fixed bottom-0 end-0 p-3"
@@ -124,8 +114,6 @@ export default {
     const searchQuery = ref('')
     const adding = ref(null)
     const showSuccessToast = ref(false)
-
-    // Fetch products from Fake Store API
     const fetchProducts = async () => {
       loading.value = true
       error.value = ''
@@ -145,7 +133,6 @@ export default {
       }
     }
 
-    // Watch search query for real-time filtering
     const filteredProducts = computed(() => {
       if (!searchQuery.value.trim()) {
         return products.value
@@ -159,9 +146,7 @@ export default {
       )
     })
 
-    // Watcher for search input (real-time search)
     watch(searchQuery, (newQuery) => {
-      // This watcher enables real-time search as required
       console.log('Searching for:', newQuery)
     })
 
