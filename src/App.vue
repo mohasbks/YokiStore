@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- Premium Navbar with Gradient -->
+    
     <nav class="navbar navbar-expand-lg fixed-top premium-navbar">
       <div class="container">
         <router-link class="navbar-brand brand-logo" to="/">
@@ -47,7 +47,6 @@
             </li>
           </ul>
           
-          <!-- Premium Cart Button -->
           <div class="d-flex align-items-center">
             <router-link class="btn premium-cart-btn position-relative me-2" to="/cart">
               <i class="bi bi-bag-heart me-1"></i>
@@ -56,8 +55,7 @@
                 {{ cartItemsCount }}
               </span>
             </router-link>
-            
-            <!-- User Profile Icon -->
+          
             <div class="dropdown">
               <button class="btn btn-link text-white dropdown-toggle user-profile" type="button" data-bs-toggle="dropdown">
                 <i class="bi bi-person-circle fs-4"></i>
@@ -75,15 +73,12 @@
       </div>
     </nav>
 
-    <!-- Main Content with enhanced spacing -->
     <main class="main-content">
       <router-view />
     </main>
     
-    <!-- Enhanced Footer -->
     <footer class="enhanced-footer">
       <div class="container">
-        <!-- Main Footer Content -->
         <div class="footer-main py-5">
           <div class="row g-4">
             <div class="col-lg-4 col-md-6">
@@ -154,7 +149,6 @@
           </div>
         </div>
         
-        <!-- Footer Bottom -->
         <div class="footer-bottom">
           <hr class="footer-divider">
           <div class="row align-items-center py-3">
@@ -191,7 +185,7 @@ export default {
 </script>
 
 <style>
-/* Enhanced Navbar */
+
 .premium-navbar {
   background: white;
   backdrop-filter: blur(10px);
@@ -304,20 +298,19 @@ export default {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
-/* Main Content */
+
 .main-content {
   margin-top: 80px;
   min-height: calc(100vh - 80px);
 }
 
-/* Enhanced Footer */
+
 .enhanced-footer {
   background: var(--bg-dark);
   color: white;
   border-top: 1px solid #333;
 }
 
-/* Footer Main Section */
 .footer-main {
   border-bottom: 1px solid #333;
 }
@@ -432,7 +425,6 @@ export default {
 }
 
 
-/* Footer Bottom */
 .footer-bottom {
   padding-top: 1rem;
 }
@@ -474,7 +466,6 @@ export default {
   transform: translateY(-2px);
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .footer-section {
     padding-left: 0;
@@ -502,7 +493,6 @@ export default {
   }
 }
 
-/* Global Enhancements */
 .btn {
   border-radius: 8px;
   font-weight: 500;
@@ -521,7 +511,6 @@ export default {
   box-shadow: var(--shadow-xl);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .brand-name {
     font-size: 1.3rem;
@@ -545,12 +534,10 @@ export default {
   }
 }
 
-/* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Loading Animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
