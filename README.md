@@ -67,6 +67,7 @@ A modern, elegant e-commerce platform built with Vue 3, offering a curated colle
 - **Deployment**: GitHub Pages
 
 ## 🏗 Project Structure
+<<<<<<< HEAD
 
 ```
 src/
@@ -183,3 +184,5 @@ The project includes a `vercel.json` configuration file that handles:
 - Build settings
 - Routing configuration
 - Static file serving
+=======
+>>>>>>> d4fa959d242b1ff4028d51aa6c7db68d7791baa8
