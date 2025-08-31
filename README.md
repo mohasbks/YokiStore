@@ -1,15 +1,36 @@
-# Vue E-commerce Shop
+<div align="center">
+  <h1 align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/YOKI-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=121212&color=121212">
+      <img alt="YOKI" src="https://img.shields.io/badge/YOKI-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=f8f9fa&color=f8f9fa">
+    </picture>
+  </h1>
+  <p align="center">
+    <strong>Premium Fashion Experience</strong>
+  </p>
+  <div align="center" style="margin: 20px 0;">
+    <img src="https://img.shields.io/badge/Modern-Elegant-ff69b4?style=flat-square" alt="Modern Elegant">
+    <img src="https://img.shields.io/badge/Luxury-Fashion-000000?style=flat-square" alt="Luxury Fashion">
+    <img src="https://img.shields.io/badge/Exclusive-Collection-8a2be2?style=flat-square" alt="Exclusive Collection">
+  </div>
+</div>
 
-A complete Vue 3 e-commerce application built with Composition API, Vue Router, and Bootstrap 5.
+<div align="center">
+  <img src="https://svgshare.com/i/14zG.svg" width="100%" alt="YOKI Banner Divider">
+</div>
 
-## Features
+# Yoki - Premium Fashion Store
 
-### 🛍️ Core E-commerce Features
-- **Product Catalog**: Browse products from Fake Store API
-- **Real-time Search**: Search products with Vue watchers
-- **Shopping Cart**: Add, remove, and manage cart items
-- **Quantity Management**: Increase/decrease product quantities
-- **LocalStorage**: Cart persistence across sessions
+A modern, elegant e-commerce platform built with Vue 3, offering a curated collection of premium fashion items with a seamless shopping experience.
+
+## ✨ Features
+
+### 🛍️ Premium Shopping Experience
+- **Curated Collections**: Handpicked selection of premium fashion items
+- **Seamless Navigation**: Intuitive product browsing and filtering
+- **Responsive Design**: Perfect shopping experience on all devices
+- **Secure Checkout**: Safe and easy payment process
+- **Wishlist**: Save your favorite items for later
 
 ### 🎨 Modern UI/UX
 - **Responsive Design**: Bootstrap 5 responsive grid system
@@ -24,16 +45,16 @@ A complete Vue 3 e-commerce application built with Composition API, Vue Router, 
 4. **Cart**: Full cart management with checkout summary
 5. **Contact**: Form validation and contact information
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- **Framework**: Vue 3 with Composition API
-- **Router**: Vue Router 4
-- **Styling**: Bootstrap 5
+- **Frontend**: Vue 3 with Composition API
+- **Routing**: Vue Router 4
+- **Styling**: Bootstrap 5 + Custom CSS
 - **Build Tool**: Vite
-- **API**: Fake Store API for product data
-- **State Management**: Reactive state with LocalStorage
+- **Icons**: Bootstrap Icons
+- **Deployment**: GitHub Pages
 
-## Project Structure
+## 🏗 Project Structure
 
 ```
 src/
@@ -51,7 +72,7 @@ src/
     └── Contact.vue      # Contact form
 ```
 
-## Installation & Setup
+## 🚀 Quick Start
 
 1. **Install Dependencies**
    ```bash
@@ -73,7 +94,7 @@ src/
    npm run preview
    ```
 
-## Features Implementation
+## 🌟 Key Features
 
 ### 🔍 Search with Watcher
 - Real-time product filtering using Vue watchers
