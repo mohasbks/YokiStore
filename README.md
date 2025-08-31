@@ -1,22 +1,34 @@
+```markdown
 <div align="center">
-  <h1 align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/YOKI-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=121212&color=121212">
-      <img alt="YOKI" src="https://img.shields.io/badge/YOKI-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=f8f9fa&color=f8f9fa">
-    </picture>
-  </h1>
-  <p align="center">
-    <strong>Premium Fashion Experience</strong>
-  </p>
-  <div align="center" style="margin: 20px 0;">
-    <img src="https://img.shields.io/badge/Modern-Elegant-ff69b4?style=flat-square" alt="Modern Elegant">
-    <img src="https://img.shields.io/badge/Luxury-Fashion-000000?style=flat-square" alt="Luxury Fashion">
-    <img src="https://img.shields.io/badge/Exclusive-Collection-8a2be2?style=flat-square" alt="Exclusive Collection">
-  </div>
-</div>
+  
+  ![YOKI Store Banner](https://user-images.githubusercontent.com/86558336/153747140-e9a64ebd-61b4-4193-92b1-74c3b859161d.png)
 
-<div align="center">
-  <img src="https://svgshare.com/i/14zG.svg" width="100%" alt="YOKI Banner Divider">
+  # 🛍️ YOKI STORE
+  
+  <p align="center">
+    <em>Elevate Your Style, Define Your Fashion</em>
+  </p>
+
+  [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
+  [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+  [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+  
+  <div align="center">
+    <img src="https://img.shields.io/badge/Modern-Elegant-ff69b4?style=flat-square&labelColor=black" alt="Modern Elegant">
+    <img src="https://img.shields.io/badge/Luxury-Fashion-gold?style=flat-square&labelColor=black" alt="Luxury Fashion">
+    <img src="https://img.shields.io/badge/Exclusive-Collection-8a2be2?style=flat-square&labelColor=black" alt="Exclusive Collection">
+  </div>
+
+  <br>
+  
+  <p align="center">
+    <a href="#✨-features">Features</a> •
+    <a href="#🛠-tech-stack">Tech Stack</a> •
+    <a href="#🚀-quick-start">Quick Start</a> •
+    <a href="#📱-pages">Pages</a>
+  </p>
+
+  <hr style="width: 100%; border: 1px solid #gold;">
 </div>
 
 # Yoki - Premium Fashion Store
