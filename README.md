@@ -19,7 +19,7 @@
 
   <!-- IMPORTANT: REPLACE THE 'src' URL WITH A SCREENSHOT OR GIF OF YOUR ACTUAL STORE -->
   <a href="https://yoki-store.vercel.app">
-    <img src="https://via.placeholder.com/800x450.png?text=Add+Yoki+Store+Screenshot+Here" alt="Yoki Store Preview" width="100%" style="border-radius:10px;"/>
+    <img src="Screenshot 2026-04-18 183316.png"/>
   </a>
 </div>
 
